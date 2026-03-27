@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# VoxEdit AI 🎬
 
-# Run and deploy your AI Studio app
+AI-powered video editor for YouTube. Automatically matches clips to your script with dynamic pacing and zoom.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
+- **AI Clip Analysis**: Automatically describes your footage.
+- **YouTube Optimized**: Fast cuts and dynamic zoom for high retention.
+- **Interactive Timeline**: Scrub, edit, and reorder segments with ease.
+- **Voiceover Sync**: Align visuals perfectly with your audio.
 
-View your app in AI Studio: https://ai.studio/apps/3fe379d1-5654-4eec-ac9a-a7dc465b259e
+## 🛠️ Setup
+1. Clone the repository.
+2. Install dependencies: `npm install`.
+3. Set your `GEMINI_API_KEY` in a `.env` file.
+4. Run locally: `npm run dev`.
 
-## Run Locally
+## 📦 Deployment (GitHub Pages)
+1. Run `npm run deploy`.
+2. Go to your GitHub repository settings > Pages.
+3. Set the source to the `gh-pages` branch.
 
-**Prerequisites:**  Node.js
-
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+Built with ❤️ using React, Vite, and Gemini AI.

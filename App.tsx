@@ -21,7 +21,7 @@ import {
 } from 'lucide-react';
 import { v4 as uuidv4 } from 'uuid';
 import { VideoAsset, AudioAsset, TimelineSegment, EditProject } from './types';
-import { cn } from './lib/utils';
+import { cn } from './utils';
 
 declare global {
   interface Window {
