@@ -1,0 +1,5 @@
+{
+  "name": "VoxEdit AI",
+  "description": "AI-powered video editor that automatically matches your clips to your voiceover and script.",
+  "requestFramePermissions": []
+}
